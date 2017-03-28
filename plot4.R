@@ -51,7 +51,7 @@ Labels <- c("Thu", "Fri", "Sat")
 ### ** C&P from plot3.R
 ### ** datetime vs Global_reactive_power
 
-png(file = 'plot4.png')
+png(file = 'plot4.png') #DEFAULT for png is 480 x 480 pixels
 par(mfrow = c(2,2))
 
 plot( Times, DNSubset$Global_active_power, type='l',
