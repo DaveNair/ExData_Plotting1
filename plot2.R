@@ -45,7 +45,7 @@ Ticks <- c( Minutes("1/2/2007 00:00:00"),
 		Minutes("3/2/2007 00:00:00"))
 Labels <- c("Thu", "Fri", "Sat")
 
-png(file = 'plot2.png')
+png(file = 'plot2.png') #DEFAULT for png is 480 x 480 pixels
 plot( Times, DNSubset$Global_active_power, type='l',
 	ylab='Global Active Power (kilowatts)', xlab='',
 	 xaxt='n')
