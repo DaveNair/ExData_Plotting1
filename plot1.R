@@ -13,7 +13,7 @@ DNSubset <- read.table(DNSubsetFile, header=TRUE, sep=';')
 
 
 ## plot 1
-png(file = 'plot1.png')
+png(file = 'plot1.png')  #DEFAULT for png is 480 x 480 pixels
 hist(DNSubset$Global_active_power, main='Global Active Power', 
 	xlab='Global Active Power (kilowatts)', col='red')
 dev.off()
