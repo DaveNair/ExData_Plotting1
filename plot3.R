@@ -45,7 +45,7 @@ Labels <- c("Thu", "Fri", "Sat")
 ### this will be almost the same as plot 2
 ### will use lines() to add
 
-png(file = 'plot2.png')
+png(file = 'plot2.png') #DEFAULT for png is 480 x 480 pixels
 plot( Times, DNSubset$Sub_metering_1, type='l',
 	ylab='Energy sub metering', xlab='',
 	 col='black', xaxt='n')
